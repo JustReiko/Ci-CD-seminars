@@ -16,21 +16,14 @@ smoke-test-job:
 ```yaml
 include:
   - local: local-smoke-tests.gitlab-ci.yml
-#  - remote: https://github.com/Valinetsky/-CI-CD_Seminar04/blob/main/remote-included-file.yml
-# К сожалению, ни собственные файлы в моих репозиториях, ни ссылка на гитхаб не сработали
-# Поэтому взял ссылку у Максима Бобкова:
   - remote: https://gitlab.com/ci-cd7655047/5/-/raw/main/remote-included-file.yml
 ```
 
-Файл с аналогичным содержанием, что и у Максима, есть в этом репозитории: `remote_included-file.yml`
-
-
-
 Repository Seminar04
-![repository](img/VirtualBox_cibox_12_05_2024_19_02_47.png "repository")
+![repository](VirtualBox_cibox_12_05_2024_19_02_47.png "repository")
 
 Remote included file job
-![remote included file job](img/VirtualBox_cibox_12_05_2024_19_10_01.png "remote included file job")
+![remote included file job](VirtualBox_cibox_12_05_2024_19_10_01.png "remote included file job")
 
 Pipeline passed
-![pipeline passed](img/VirtualBox_cibox_12_05_2024_19_10_34.png "pipeline passed")
+![pipeline passed](VirtualBox_cibox_12_05_2024_19_10_34.png "pipeline passed")
